@@ -26,20 +26,33 @@ wheels = [
 ]
 
 [[package]]
+name = "django-admin-tailwind"
+version = "0.0.31"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/45/ce/2b150744a0ee0b55bf9c0ddbc68f9bb430eabf10e3f2c2284ee52032f62c/django-admin-tailwind-0.0.31.tar.gz", hash = "sha256:8acbea7a6e4a94b1650832b4de626904cc1c8ef27bc473132683a55bb3168cad", size = 58624, upload-time = "2023-05-30T08:38:39.508Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/62/26/f560eac27f9ae6f3e8a307ec54a96aaa644e6a26f20dc2010c053d42fb70/django_admin_tailwind-0.0.31-py3-none-any.whl", hash = "sha256:fa35b013fedc4d834e9cb30131dcfbb7793b71839c2e9f755dfa068fea8a976e", size = 86880, upload-time = "2023-05-30T08:38:37.057Z" },
+]
+
+[[package]]
 name = "django-shop"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "django" },
+    { name = "django-admin-tailwind" },
     { name = "mysqlclient" },
     { name = "pillow" },
+    { name = "setuptools" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "django", specifier = ">=4.2,<5.0" },
+    { name = "django-admin-tailwind", specifier = ">=0.0.31" },
     { name = "mysqlclient", specifier = ">=2.2.7" },
     { name = "pillow", specifier = ">=11.3.0" },
+    { name = "setuptools", specifier = ">=80.9.0" },
 ]
 
 [[package]]
@@ -116,6 +129,15 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/f0/77/bc6f92a3e8e6e46c0ca78abfffec0037845800ea38c73483760362804c41/pillow-11.3.0-cp314-cp314t-win32.whl", hash = "sha256:118ca10c0d60b06d006be10a501fd6bbdfef559251ed31b794668ed569c87e12", size = 6377370, upload-time = "2025-07-01T09:15:46.673Z" },
     { url = "https://files.pythonhosted.org/packages/4a/82/3a721f7d69dca802befb8af08b7c79ebcab461007ce1c18bd91a5d5896f9/pillow-11.3.0-cp314-cp314t-win_amd64.whl", hash = "sha256:8924748b688aa210d79883357d102cd64690e56b923a186f35a82cbc10f997db", size = 7121500, upload-time = "2025-07-01T09:15:48.512Z" },
     { url = "https://files.pythonhosted.org/packages/89/c7/5572fa4a3f45740eaab6ae86fcdf7195b55beac1371ac8c619d880cfe948/pillow-11.3.0-cp314-cp314t-win_arm64.whl", hash = "sha256:79ea0d14d3ebad43ec77ad5272e6ff9bba5b679ef73375ea760261207fa8e0aa", size = 2512835, upload-time = "2025-07-01T09:15:50.399Z" },
+]
+
+[[package]]
+name = "setuptools"
+version = "80.9.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/18/5d/3bf57dcd21979b887f014ea83c24ae194cfcd12b9e0fda66b957c69d1fca/setuptools-80.9.0.tar.gz", hash = "sha256:f36b47402ecde768dbfafc46e8e4207b4360c654f1f3bb84475f0a28628fb19c", size = 1319958, upload-time = "2025-05-27T00:56:51.443Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/dc/17031897dae0efacfea57dfd3a82fdd2a2aeb58e0ff71b77b87e44edc772/setuptools-80.9.0-py3-none-any.whl", hash = "sha256:062d34222ad13e0cc312a4c02d73f059e86a4acbfbdea8f8f76b28c99f306922", size = 1201486, upload-time = "2025-05-27T00:56:49.664Z" },
 ]
 
 [[package]]
