@@ -1,0 +1,2 @@
+# django-shop
+ecomerse dijango
